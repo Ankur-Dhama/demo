@@ -1,0 +1,50 @@
+.navbar>nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav>h1{
+    padding-top: 1em;
+    font-family: fantasy;
+    margin-left: 1em;
+}
+
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    font-family: cursive;
+    font-size: 20px;
+    margin: 1em;
+}
+a,a :visited,a:link{
+   text-decoration: none;
+   color: black;
+   
+}
+a:hover{
+    color: mediumseagreen;
+}
+.codingimg{
+    height: 85vh;
+    width: 95vw;
+    margin-left: 1.5em;
+    margin-right: 2em;
+}
+
+.skills{
+    display: flex;
+    margin: 1em;
+}
+
+.skills>div{
+    text-align: center;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 60px;
+    padding: 20px;
+}
+
